@@ -1,0 +1,11 @@
+.blog {
+    /* Без этого свойства верстка ломается даже без таблицы */
+    box-sizing: border-box;
+}
+
+.table-wrapper {
+    position: relative;
+    width: 100%;
+    /* Один из вариантов решения проблемы */
+    overflow-x: scroll;
+}

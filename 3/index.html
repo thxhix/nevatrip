@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <select name="route" id="route">
+            <option value="Выберете направление" disabled selected>Выберете направление</option>
+            <option value="из A в B">из A в B</option>
+            <option value="из B в A">из B в A</option>
+            <option value="из A в B и обратно в А">из A в B и обратно в А</option>
+        </select>
+
+        <br><br>
+        <div class="timeline"></div>
+        <br>
+
+
+        <label for="num">Количество билетов</label>
+        <input id="num" />
+        <button id="submit">Посчитать</button>
+        <div id="result"></div>
+        <script src="calc.js"></script>
+    </body>
+</html>
